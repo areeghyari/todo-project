@@ -1,4 +1,6 @@
 # todo-project
-![about page](/imade/aboutbage.jpg)
+![about page](/image/aboutbage.jpg)
 
-![home page](/imade/homebage.jpg)
+![home page](/image/homebage.jpg)
+
+
