@@ -1,0 +1,29 @@
+header {
+    background-color: gray;
+}
+
+img {
+    display: inline;
+    margin-left: 10;
+    margin-right: 90;
+    margin-top: 0%;
+    width: 5%;
+  }
+
+link { 
+margin-right: 222px;
+margin-left: 50px;
+margin: bottom 50%; ;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+footer {
+    background-color: gray;
+}
+ 
