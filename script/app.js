@@ -73,6 +73,7 @@ var result = [question1, question2, question3];
 console.log(result)
 
 
+
 for (var i = 0; i < 3; i++)
     console.log(result[i]);
 
