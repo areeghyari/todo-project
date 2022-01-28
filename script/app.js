@@ -68,21 +68,31 @@ while (question3 != "yes" && question3 != "y" && question3 != "no" && question3 
     question3 = question3.toLocaleLowerCase();
 }
 
+var arr =[ question1,question2,question3];
+// console.log(arr)
 
-var result = [question1, question2, question3];
-console.log(result)
+function finalAnswer() {
+
+  if  (question1=="yes" && question2=="yes" && question3=="yes") {
+userAnswer= "all answers are yes"
+console.log(userAnswer);
+}}
+let result=finalAnswer()
+
+  function finalAnswer2 (){
+      if (question1 =="no"&& question2=="no" && question3=="no"){
+     userAnswer2 = "all answers are no"
+      console.log(userAnswer2)
+    
+    }}
+let result1=finalAnswer2()
 
 
+for (var i = 0; i < arr.length ; i++){
+    console.log(arr[i]);
 
-for (var i = 0; i < 3; i++)
-    console.log(result[i]);
-
-
-
-function userResult() {
-    perfectResult = "The perfect answer is yes";
-    console.log(perfectResult);
 }
-userResult();
+
+
 
 
